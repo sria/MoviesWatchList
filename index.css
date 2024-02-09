@@ -1,0 +1,141 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+       /*
+    font-family: 'Lobster', sans-serif;
+    font-family: 'Lora', serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+     */
+     max-width: 300px;
+}
+
+header{
+    background-image: url('images/moviehead.jfif');
+    width: 100vw;
+    height: 30vh;
+    /*border: 1px solid red;*/
+    color: white;
+    display: flex;
+    align-content:center;
+    justify-content: space-around;
+}
+
+header h2,a{
+  /* border: 1px solid orange;*/
+   padding: 0px;
+   align-self: center;
+   position: relative;
+   color: white;
+}
+
+header a{
+    font-size: smaller;
+    text-decoration: none;
+}
+#search-box{
+    display: flex;
+    gap:0px;
+    position: absolute;
+    top: 27.5vh;
+    margin-left: 15vw;
+    /*border: 1px solid purple;*/
+}
+input{
+    margin-right: 0px;
+    font-family: inherit;
+    border-right: none;
+    border: 1px solid lightgrey;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding: 5px;
+    font-size: 0.9em;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+button{
+    margin-left: 0px;
+    font-family: inherit;
+    border-left: none;
+    border-right: none;
+    border: 1px solid lightgrey;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-size: small;
+}
+
+.movie-item{
+    margin: 30px 20px;
+    border-bottom: 1px solid lightgray;
+    width: 90vw;
+    height: 20%;
+    display: flex;
+    padding-bottom: 10px;
+}
+
+.movie-item img{
+    height: 8rem;
+    padding: 2px 2px;
+}
+#movieinfo{
+    width: 100%;
+}
+
+.movie-info1
+{
+       width: 40%;
+}
+.movie-info1, .movie-info2{
+    color: black;
+    border: 0px solid orange;
+    padding: 0px 5px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: auto;
+    gap:10px;
+}
+span{
+    font-size: small;
+    align-self: center;
+}
+p{
+    font-size: 0.6em;
+    
+}
+h5,p{
+    border: 0px solid green;
+    padding: 0px 0px;
+    margin: 5px 0px;
+}
+
+.movie-info2 button{
+    border-radius: 50px;
+    margin-left: auto;
+    border: 1px solid indigo;
+}
+
+.movie-info3 p{
+    padding: 10px 5px;
+    font-size: 0.8em;
+}
+
+hr{
+    width: 100%;
+}
+
+.divdisplay{
+    display: none ;  
+}
+
+
+
+.mywatchdisplay{
+    display:none;
+}
